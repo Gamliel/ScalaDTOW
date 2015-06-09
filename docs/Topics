@@ -1,0 +1,11 @@
+Scala:
+Substitution/evaluation model
+Functions as argument
+Type system (Variance/Covariance, implicit type)
+Lists/immutables
+Recursion / Tail recursion optimisation
+Inheritance/Traits
+Implicit Constructors
+Testing frameworks
+For/map/foldleft/foldright
+
