@@ -2,7 +2,7 @@ package example
 
 import common._
 
-object Lists {
+object ListsAlternative {
   /**
   * This method computes the sum of all elements in the list xs. There are
   * multiple techniques that can be used for implementing this method, and
@@ -23,9 +23,7 @@ object Lists {
   * @param xs A list of natural numbers
   * @return The sum of all elements in `xs`
   */
-    def sum(xs: List[Int]): Int = {
-      if (xs.isEmpty) { 0 } else { xs.head + sum (xs.tail)}
-    }
+    def sum(xs: List[Int]): Int = ???
   
   /**
   * This method returns the largest element in a list of integers. If the
@@ -40,7 +38,5 @@ object Lists {
   * @return The largest element in `xs`
   * @throws java.util.NoSuchElementException if `xs` is an empty list
   */
-    def max(xs: List[Int]): Int = {
-      if (xs.tail.isEmpty) {xs.head} else Math.max(xs.head, max(xs.tail))
-    }
+    def max(xs: List[Int]): Int = ???
   }
