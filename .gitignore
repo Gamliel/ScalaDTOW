@@ -1,0 +1,6 @@
+/bin/
+.project
+project/
+.class
+target/
+.cache*
